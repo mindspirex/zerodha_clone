@@ -12,7 +12,11 @@ import coin from "@/images/popup/coin.svg";
 import varsity from "@/images/popup/varsity.png";
 import trading from "@/images/popup/trading.png";
 
-function Popup({ popupOpen }) {
+interface PopupProps {
+  popupOpen: boolean;
+}
+
+function Popup({ popupOpen }: PopupProps) {
   return popupOpen ? (
     <div className="absolute right-8 top-[55px] flex h-[250px] w-[600px] flex-col justify-between border bg-white">
       <div className="flex justify-around py-5">
