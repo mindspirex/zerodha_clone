@@ -10,16 +10,17 @@ export default function TrustWithConfidence() {
         <div className="flex flex-col gap-3">
           <h4 className="text-xl text-gray-700">Customer-first always</h4>
           <p className="text-gray-500">
-            That's why 1.5+ crore customers trust Zerodha with ₹4.5+ lakh crores
-            of equity investments and contribute to 15% of daily retail exchange
-            volumes in India.
+            That{"'"}s why 1.5+ crore customers trust Zerodha with ₹4.5+ lakh
+            crores of equity investments and contribute to 15% of daily retail
+            exchange volumes in India.
           </p>
         </div>
         <div className="flex flex-col gap-3">
           <h4 className="text-xl text-gray-700">No spam or gimmicks</h4>
           <p className="text-gray-500">
-            No gimmicks, spam, "gamification", or annoying push notifications.
-            High quality apps that you use at your pace, the way you like.
+            No gimmicks, spam, {'"'}gamification{'"'}, or annoying push
+            notifications. High quality apps that you use at your pace, the way
+            you like.
           </p>
         </div>
         <div className="flex flex-col gap-3">
@@ -32,7 +33,7 @@ export default function TrustWithConfidence() {
         <div className="flex flex-col gap-3">
           <h4 className="text-xl text-gray-700">Do better with money</h4>
           <p className="text-gray-500">
-            With initiatives like Nudge and Kill Switch, we don't just
+            With initiatives like Nudge and Kill Switch, we don{"'"}t just
             facilitate transactions, but actively help you do better with your
             money.
           </p>
