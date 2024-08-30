@@ -18,27 +18,31 @@ export default function TrustWithConfidence() {
         <div className="flex flex-col gap-3">
           <h4 className="text-xl text-gray-700">No spam or gimmicks</h4>
           <p className="text-gray-500">
-            No gimmicks, spam, "gamification", or annoying push notifications. High quality apps that you use at your pace, the way you like.
+            No gimmicks, spam, "gamification", or annoying push notifications.
+            High quality apps that you use at your pace, the way you like.
           </p>
         </div>
         <div className="flex flex-col gap-3">
           <h4 className="text-xl text-gray-700">The Zerodha universe</h4>
           <p className="text-gray-500">
-            Not just an app, but a whole ecosystem. Our investments in 30+ fintech startups offer you tailored services specific to your needs.
+            Not just an app, but a whole ecosystem. Our investments in 30+
+            fintech startups offer you tailored services specific to your needs.
           </p>
         </div>
         <div className="flex flex-col gap-3">
           <h4 className="text-xl text-gray-700">Do better with money</h4>
           <p className="text-gray-500">
-            With initiatives like Nudge and Kill Switch, we don't just facilitate transactions, but actively help you do better with your money.
+            With initiatives like Nudge and Kill Switch, we don't just
+            facilitate transactions, but actively help you do better with your
+            money.
           </p>
         </div>
       </div>
       <div>
         <Image src={ecosystem} alt="ecosystem" width={2000} height={2000} />
         <div className="flex justify-evenly text-blue-600">
-          <Link href="#">Explore our products -></Link>
-          <Link href="#">Try Kite demo -></Link>
+          <Link href="#">Explore our products {"->"}</Link>
+          <Link href="#">Try Kite demo {"->"}</Link>
         </div>
       </div>
     </section>
